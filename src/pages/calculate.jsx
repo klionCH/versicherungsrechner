@@ -20,26 +20,26 @@ function Calculator() {
     };
 
     return (
-        <div className="bg">
-            <div className="w-screen bg-neutral-900/50 h-screen grid grid-cols-4 gap-4">
-                <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)} className="col-start-2 col-span-2">
-                    <TabList className="grid grid-cols-4 gap-4 mt-20 ">
-                        <Tab className={`focus:outline-none ${tabIndex === 0 ? 'bg-indigo-600' : 'bg-indigo-500'} rounded-full`}>
-                            <div className="aspect-square text-white grid place-content-center cursor-pointer">
+        <div className="bg font-mono text-xl">
+            <div className="w-screen bg-neutral-900/80 h-screen grid grid-cols-4 gap-4 ">
+                <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)} className="col-start-2 col-span-2 ">
+<TabList className="grid grid-cols-4 gap-4 mt-20 col-start-1 col-span-4 place-items-center">
+                        <Tab className={`focus:outline-none ${tabIndex === 0 ? 'bg-dark' : 'bg-light'} rounded-full w-52 aspect-square`}>
+                            <div className="aspect-square text-white grid place-content-center cursor-pointer text">
                                 Tab1
                             </div>
                         </Tab>
-                        <Tab className={`focus:outline-none ${tabIndex === 1 ? 'bg-indigo-600' : 'bg-indigo-500'} rounded-full`}>
+                        <Tab className={`focus:outline-none ${tabIndex === 1 ? 'bg-dark' : 'bg-light'} rounded-full w-52 aspect-square`}>
                             <div className="aspect-square text-white grid place-content-center cursor-pointer">
                                 Page 2
                             </div>
                         </Tab>
-                        <Tab className={`focus:outline-none ${tabIndex === 2 ? 'bg-indigo-600' : 'bg-indigo-500'} rounded-full`}>
+                        <Tab className={`focus:outline-none ${tabIndex === 2 ? 'bg-dark' : 'bg-light'} rounded-full w-52 aspect-square`}>
                             <div className="aspect-square text-white grid place-content-center cursor-pointer">
                                 Page 3
                             </div>
                         </Tab>
-                        <Tab className={`focus:outline-none ${tabIndex === 3 ? 'bg-indigo-600' : 'bg-indigo-500'} rounded-full`}>
+                        <Tab className={`focus:outline-none ${tabIndex === 3 ? 'bg-dark' : 'bg-light'} rounded-full w-52 aspect-square`}>
                             <div className="aspect-square text-white grid place-content-center cursor-pointer">
                                 Page 4
                             </div>
