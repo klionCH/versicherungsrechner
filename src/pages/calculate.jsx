@@ -22,11 +22,11 @@ function Calculator() {
     return (
         <div className="bg font-mono text-xl">
             <div className="w-screen bg-neutral-900/80 h-screen grid grid-cols-4 gap-4 ">
-                <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)} className="col-start-2 col-span-2 ">
+                <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)} className="col-start-2 col-span-2 h-72 ">
 <TabList className="grid grid-cols-4 gap-4 mt-20 col-start-1 col-span-4 place-items-center">
                         <Tab className={`focus:outline-none ${tabIndex === 0 ? 'bg-dark' : 'bg-light'} rounded-full w-52 aspect-square`}>
-                            <div className="aspect-square text-white grid place-content-center cursor-pointer text">
-                                Tab1
+                            <div className="aspect-square text-white grid place-content-center cursor-pointer text-center">
+                                Fahrzeug bezogene Daten
                             </div>
                         </Tab>
                         <Tab className={`focus:outline-none ${tabIndex === 1 ? 'bg-dark' : 'bg-light'} rounded-full w-52 aspect-square`}>
@@ -46,11 +46,11 @@ function Calculator() {
                         </Tab>
 
                     </TabList>
-                    <TabPanel className=" bg-indigo-400">
-                        <div className="mt-4 text-white"><Page1></Page1></div>
+                    <TabPanel className="">
+                        <div className="mt-4 text-white h-56"><Page1></Page1></div>
                     </TabPanel>
                     <TabPanel className="bg-indigo-400">
-                        <div className="mt-4 text-white"><Page2></Page2></div>
+                        <div className="mt-4 text-white h-40"><Page2></Page2></div>
                     </TabPanel>
                     <TabPanel>
                         <div className="mt-4 text-white">Content for Page 3</div>
