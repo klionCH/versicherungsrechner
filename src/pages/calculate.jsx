@@ -17,31 +17,31 @@ function Calculator() {
         if (tabIndex < 3) 
             setTabIndex(tabIndex + 1);
         }
-    };
+    
 
     return (
         <div className="bg font-mono text-xl">
-            <div className="w-screen bg-neutral-900/80 h-screen grid grid-cols-4 gap-4 ">
+            <div className="w-screen bg-neutral-900/80 h-screen grid grid-cols-4 gap-4 pt-20 ">
                 <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)} className="col-start-2 col-span-2 h-72 ">
-<TabList className="grid grid-cols-4 gap-4 mt-20 col-start-1 col-span-4 place-items-center">
-                        <Tab className={`focus:outline-none ${tabIndex === 0 ? 'bg-dark' : 'bg-light'} rounded-full w-52 aspect-square`}>
+                    <TabList className="grid grid-cols-4 gap-4 mt-20 col-start-1 col-span-4 place-items-center">
+                        <Tab className={`focus:outline-none ${tabIndex === 0 ? 'bg-dark' : 'bg-light'} rounded-full w-20 2xl:w-40 aspect-square`}>
                             <div className="aspect-square text-white grid place-content-center cursor-pointer text-center">
-                                Fahrzeug bezogene Daten
+                                1
                             </div>
                         </Tab>
-                        <Tab className={`focus:outline-none ${tabIndex === 1 ? 'bg-dark' : 'bg-light'} rounded-full w-52 aspect-square`}>
+                        <Tab className={`focus:outline-none ${tabIndex === 1 ? 'bg-dark' : 'bg-light'} rounded-full w-20 2xl:w-40 aspect-square`}>
                             <div className="aspect-square text-white grid place-content-center cursor-pointer">
-                                Page 2
+                                2
                             </div>
                         </Tab>
-                        <Tab className={`focus:outline-none ${tabIndex === 2 ? 'bg-dark' : 'bg-light'} rounded-full w-52 aspect-square`}>
+                        <Tab className={`focus:outline-none ${tabIndex === 2 ? 'bg-dark' : 'bg-light'} rounded-full w-20 2xl:w-40 aspect-square`}>
                             <div className="aspect-square text-white grid place-content-center cursor-pointer">
-                                Page 3
+                                3
                             </div>
                         </Tab>
-                        <Tab className={`focus:outline-none ${tabIndex === 3 ? 'bg-dark' : 'bg-light'} rounded-full w-52 aspect-square`}>
+                        <Tab className={`focus:outline-none ${tabIndex === 3 ? 'bg-dark' : 'bg-light'} rounded-full w-20 2xl:w-40 aspect-square`}>
                             <div className="aspect-square text-white grid place-content-center cursor-pointer">
-                                Page 4
+                                4
                             </div>
                         </Tab>
 
@@ -110,6 +110,5 @@ function Calculator() {
             
         </div>
     );
-}
-
+};
 export default Calculator;

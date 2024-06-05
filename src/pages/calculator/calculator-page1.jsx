@@ -7,66 +7,6 @@ function Page1() {
   const [kilometerstand, setKilometerstand] = useState("");
   const [leistung, setLeistung] = useState("");
 
-
-  const carBrands = [
-    { value: "-", factor: 1 },
-    { value: "Acura", factor: 1 },
-    { value: "Alfa Romeo", factor: 1 },
-    { value: "Aston Martin", factor: 1 },
-    { value: "Audi", factor: 1 },
-    { value: "Bentley", factor: 1 },
-    { value: "BMW", factor: 1 },
-    { value: "Bugatti", factor: 1 },
-    { value: "Buick", factor: 1 },
-    { value: "Cadillac", factor: 1 },
-    { value: "Chevrolet", factor: 1 },
-    { value: "Chrysler", factor: 1 },
-    { value: "Citroën", factor: 1 },
-    { value: "Dacia", factor: 1 },
-    { value: "Daewoo", factor: 1 },
-    { value: "Daihatsu", factor: 1 },
-    { value: "Dodge", factor: 1 },
-    { value: "Ferrari", factor: 1 },
-    { value: "Fiat", factor: 1 },
-    { value: "Ford", factor: 1 },
-    { value: "Genesis", factor: 1 },
-    { value: "GMC", factor: 1 },
-    { value: "Honda", factor: 1 },
-    { value: "Hyundai", factor: 1 },
-    { value: "Infiniti", factor: 1 },
-    { value: "Jaguar", factor: 1 },
-    { value: "Jeep", factor: 1 },
-    { value: "Kia", factor: 1 },
-    { value: "Lamborghini", factor: 1 },
-    { value: "Lancia", factor: 1 },
-    { value: "Land Rover", factor: 1 },
-    { value: "Lexus", factor: 1 },
-    { value: "Lincoln", factor: 1 },
-    { value: "Maserati", factor: 1 },
-    { value: "Mazda", factor: 1 },
-    { value: "McLaren", factor: 1 },
-    { value: "Mercedes-Benz", factor: 1 },
-    { value: "Mini", factor: 1 },
-    { value: "Mitsubishi", factor: 1 },
-    { value: "Nissan", factor: 1 },
-    { value: "Opel", factor: 1 },
-    { value: "Peugeot", factor: 1 },
-    { value: "Porsche", factor: 1 },
-    { value: "Ram", factor: 1 },
-    { value: "Renault", factor: 1 },
-    { value: "Rolls-Royce", factor: 1 },
-    { value: "Saab", factor: 1 },
-    { value: "Seat", factor: 1 },
-    { value: "Skoda", factor: 1 },
-    { value: "Smart", factor: 1 },
-    { value: "Subaru", factor: 1 },
-    { value: "Suzuki", factor: 1 },
-    { value: "Tesla", factor: 1 },
-    { value: "Toyota", factor: 1 },
-    { value: "Volkswagen", factor: 1 },
-    { value: "Volvo", factor: 1 },
-  ];
-
   return (
     <>
       <form>
@@ -79,9 +19,62 @@ function Page1() {
             placeholder=" "
             required
           >
-            {carBrands.map((carBrand) => (
-                <option value={carBrand.value}>{carBrand.value}</option>
-            ))}
+            <option value="-">-</option>
+            <option value="Acura">Acura</option>
+            <option value="Alfa Romeo">Alfa Romeo</option>
+            <option value="Aston Martin">Aston Martin</option>
+            <option value="Audi">Audi</option>
+            <option value="Bentley">Bentley</option>
+            <option value="BMW">BMW</option>
+            <option value="Bugatti">Bugatti</option>
+            <option value="Buick">Buick</option>
+            <option value="Cadillac">Cadillac</option>
+            <option value="Chevrolet">Chevrolet</option>
+            <option value="Chrysler">Chrysler</option>
+            <option value="Citroën">Citroën</option>
+            <option value="Dacia">Dacia</option>
+            <option value="Daewoo">Daewoo</option>
+            <option value="Daihatsu">Daihatsu</option>
+            <option value="Dodge">Dodge</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Fiat">Fiat</option>
+            <option value="Ford">Ford</option>
+            <option value="Genesis">Genesis</option>
+            <option value="GMC">GMC</option>
+            <option value="Honda">Honda</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Infiniti">Infiniti</option>
+            <option value="Jaguar">Jaguar</option>
+            <option value="Jeep">Jeep</option>
+            <option value="Kia">Kia</option>
+            <option value="Lamborghini">Lamborghini</option>
+            <option value="Lancia">Lancia</option>
+            <option value="Land Rover">Land Rover</option>
+            <option value="Lexus">Lexus</option>
+            <option value="Lincoln">Lincoln</option>
+            <option value="Maserati">Maserati</option>
+            <option value="Mazda">Mazda</option>
+            <option value="McLaren">McLaren</option>
+            <option value="Mercedes-Benz">Mercedes-Benz</option>
+            <option value="Mini">Mini</option>
+            <option value="Mitsubishi">Mitsubishi</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Opel">Opel</option>
+            <option value="Peugeot">Peugeot</option>
+            <option value="Porsche">Porsche</option>
+            <option value="Ram">Ram</option>
+            <option value="Renault">Renault</option>
+            <option value="Rolls-Royce">Rolls-Royce</option>
+            <option value="Saab">Saab</option>
+            <option value="Seat">Seat</option>
+            <option value="Skoda">Skoda</option>
+            <option value="Smart">Smart</option>
+            <option value="Subaru">Subaru</option>
+            <option value="Suzuki">Suzuki</option>
+            <option value="Tesla">Tesla</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Volkswagen">Volkswagen</option>
+            <option value="Volvo">Volvo</option>
           </select>
           <label
             for="car-brand"
