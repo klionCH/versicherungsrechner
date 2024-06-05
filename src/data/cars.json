@@ -1,0 +1,850 @@
+[
+    {
+        "Modell": "Giulia",
+        "Marke": "Alfa Romeo",
+        "Preis": 40000,
+        "Typ": "Mittelklasse"
+      },
+      {
+        "Modell": "Stelvio",
+        "Marke": "Alfa Romeo",
+        "Preis": 45000,
+        "Typ": "Mittelklasse-SUV"
+      },
+      {
+        "Modell": "Giulietta",
+        "Marke": "Alfa Romeo",
+        "Preis": 30000,
+        "Typ": "Kompaktklasse"
+      },
+      {
+        "Modell": "MiTo",
+        "Marke": "Alfa Romeo",
+        "Preis": 20000,
+        "Typ": "Kleinwagen"
+      },
+      {
+        "Modell": "4C",
+        "Marke": "Alfa Romeo",
+        "Preis": 65000,
+        "Typ": "Sportwagen"
+      },
+      {
+        "Modell": "8C Competizione",
+        "Marke": "Alfa Romeo",
+        "Preis": 250000,
+        "Typ": "Supersportwagen"
+      },
+      {
+        "Modell": "Tonale",
+        "Marke": "Alfa Romeo",
+        "Preis": 38000,
+        "Typ": "Kompakt-SUV"
+      },
+
+
+
+
+      {
+        "Modell": "Vantage",
+        "Marke": "Aston Martin",
+        "Preis": 150000,
+        "Typ": "Sportwagen"
+      },
+      {
+        "Modell": "DB11",
+        "Marke": "Aston Martin",
+        "Preis": 205000,
+        "Typ": "Luxus-Sportwagen"
+      },
+      {
+        "Modell": "DBS Superleggera",
+        "Marke": "Aston Martin",
+        "Preis": 300000,
+        "Typ": "Luxus-Sportwagen"
+      },
+      {
+        "Modell": "Rapide AMR",
+        "Marke": "Aston Martin",
+        "Preis": 250000,
+        "Typ": "Luxus-Sportlimousine"
+      },
+      {
+        "Modell": "DBX",
+        "Marke": "Aston Martin",
+        "Preis": 190000,
+        "Typ": "Luxus-SUV"
+      },
+      {
+        "Modell": "Valkyrie",
+        "Marke": "Aston Martin",
+        "Preis": 3000000,
+        "Typ": "Hypercar"
+      },
+      {
+        "Modell": "Valhalla",
+        "Marke": "Aston Martin",
+        "Preis": 1000000,
+        "Typ": "Hypercar"
+      },
+      {
+        "Modell": "Vanquish",
+        "Marke": "Aston Martin",
+        "Preis": 250000,
+        "Typ": "Luxus-Sportwagen"
+      },
+
+
+
+      {
+        "Modell": "A1",
+        "Marke": "Audi",
+        "Preis": 20000,
+        "Typ": "Kleinwagen"
+      },
+      {
+        "Modell": "A3",
+        "Marke": "Audi",
+        "Preis": 26000,
+        "Typ": "Kompaktklasse"
+      },
+      {
+        "Modell": "A4",
+        "Marke": "Audi",
+        "Preis": 35000,
+        "Typ": "Mittelklasse"
+      },
+      {
+        "Modell": "A5",
+        "Marke": "Audi",
+        "Preis": 42000,
+        "Typ": "Mittelklasse-Coupé"
+      },
+      {
+        "Modell": "A6",
+        "Marke": "Audi",
+        "Preis": 50000,
+        "Typ": "Obere Mittelklasse"
+      },
+      {
+        "Modell": "A7",
+        "Marke": "Audi",
+        "Preis": 60000,
+        "Typ": "Oberklasse-Coupé"
+      },
+      {
+        "Modell": "A8",
+        "Marke": "Audi",
+        "Preis": 90000,
+        "Typ": "Luxusklasse"
+      },
+      {
+        "Modell": "Q2",
+        "Marke": "Audi",
+        "Preis": 25000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "Q3",
+        "Marke": "Audi",
+        "Preis": 30000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "Q4 e-tron",
+        "Marke": "Audi",
+        "Preis": 42000,
+        "Typ": "Elektro-SUV"
+      },
+      {
+        "Modell": "Q5",
+        "Marke": "Audi",
+        "Preis": 45000,
+        "Typ": "Mittelklasse-SUV"
+      },
+      {
+        "Modell": "Q7",
+        "Marke": "Audi",
+        "Preis": 60000,
+        "Typ": "Oberklasse-SUV"
+      },
+      {
+        "Modell": "Q8",
+        "Marke": "Audi",
+        "Preis": 75000,
+        "Typ": "Luxus-SUV"
+      },
+      {
+        "Modell": "e-tron",
+        "Marke": "Audi",
+        "Preis": 70000,
+        "Typ": "Elektro-SUV"
+      },
+      {
+        "Modell": "e-tron GT",
+        "Marke": "Audi",
+        "Preis": 100000,
+        "Typ": "Elektro-Sportwagen"
+      },
+      {
+        "Modell": "TT",
+        "Marke": "Audi",
+        "Preis": 40000,
+        "Typ": "Sportwagen"
+      },
+      {
+        "Modell": "R8",
+        "Marke": "Audi",
+        "Preis": 145000,
+        "Typ": "Supersportwagen"
+      },
+      {
+        "Modell": "S1",
+        "Marke": "Audi",
+        "Preis": 30000,
+        "Typ": "Sport-Kleinwagen"
+      },
+      {
+        "Modell": "S3",
+        "Marke": "Audi",
+        "Preis": 45000,
+        "Typ": "Sport-Kompaktklasse"
+      },
+      {
+        "Modell": "S4",
+        "Marke": "Audi",
+        "Preis": 60000,
+        "Typ": "Sport-Mittelklasse"
+      },
+      {
+        "Modell": "S5",
+        "Marke": "Audi",
+        "Preis": 65000,
+        "Typ": "Sport-Mittelklasse-Coupé"
+      },
+      {
+        "Modell": "S6",
+        "Marke": "Audi",
+        "Preis": 70000,
+        "Typ": "Sport-Obere Mittelklasse"
+      },
+      {
+        "Modell": "S7",
+        "Marke": "Audi",
+        "Preis": 80000,
+        "Typ": "Sport-Oberklasse-Coupé"
+      },
+      {
+        "Modell": "S8",
+        "Marke": "Audi",
+        "Preis": 130000,
+        "Typ": "Sport-Luxusklasse"
+      },
+      {
+        "Modell": "SQ2",
+        "Marke": "Audi",
+        "Preis": 40000,
+        "Typ": "Sport-Kompakt-SUV"
+      },
+      {
+        "Modell": "SQ5",
+        "Marke": "Audi",
+        "Preis": 60000,
+        "Typ": "Sport-Mittelklasse-SUV"
+      },
+      {
+        "Modell": "SQ7",
+        "Marke": "Audi",
+        "Preis": 80000,
+        "Typ": "Sport-Oberklasse-SUV"
+      },
+      {
+        "Modell": "SQ8",
+        "Marke": "Audi",
+        "Preis": 90000,
+        "Typ": "Sport-Luxus-SUV"
+      },
+      {
+        "Modell": "RS3",
+        "Marke": "Audi",
+        "Preis": 60000,
+        "Typ": "Hochleistungs-Kompaktklasse"
+      },
+      {
+        "Modell": "RS4",
+        "Marke": "Audi",
+        "Preis": 80000,
+        "Typ": "Hochleistungs-Mittelklasse"
+      },
+      {
+        "Modell": "RS5",
+        "Marke": "Audi",
+        "Preis": 85000,
+        "Typ": "Hochleistungs-Mittelklasse-Coupé"
+      },
+      {
+        "Modell": "RS6",
+        "Marke": "Audi",
+        "Preis": 120000,
+        "Typ": "Hochleistungs-Obere Mittelklasse"
+      },
+      {
+        "Modell": "RS7",
+        "Marke": "Audi",
+        "Preis": 130000,
+        "Typ": "Hochleistungs-Oberklasse-Coupé"
+      },
+      {
+        "Modell": "RS Q3",
+        "Marke": "Audi",
+        "Preis": 70000,
+        "Typ": "Hochleistungs-Kompakt-SUV"
+      },
+      {
+        "Modell": "RS Q8",
+        "Marke": "Audi",
+        "Preis": 140000,
+        "Typ": "Hochleistungs-Luxus-SUV"
+      },
+  
+
+
+      {
+        "Modell": "Bentayga",
+        "Marke": "Bentley",
+        "Preis": 200000,
+        "Typ": "Luxus-SUV"
+      },
+      {
+        "Modell": "Continental GT",
+        "Marke": "Bentley",
+        "Preis": 220000,
+        "Typ": "Luxus-Coupé"
+      },
+      {
+        "Modell": "Flying Spur",
+        "Marke": "Bentley",
+        "Preis": 230000,
+        "Typ": "Luxus-Limousine"
+      },
+      {
+        "Modell": "Mulsanne",
+        "Marke": "Bentley",
+        "Preis": 310000,
+        "Typ": "Luxus-Limousine"
+      },
+      {
+        "Modell": "Continental GTC",
+        "Marke": "Bentley",
+        "Preis": 250000,
+        "Typ": "Luxus-Cabriolet"
+      },
+      {
+        "Modell": "Continental GT Speed",
+        "Marke": "Bentley",
+        "Preis": 280000,
+        "Typ": "Luxus-Sport-Coupé"
+      },
+      {
+        "Modell": "Bentayga Speed",
+        "Marke": "Bentley",
+        "Preis": 240000,
+        "Typ": "Luxus-SUV"
+      },
+
+
+
+      
+      {
+        "Modell": "1er",
+        "Marke": "BMW",
+        "Preis": 25000,
+        "Typ": "Kompaktklasse"
+      },
+      {
+        "Modell": "2er",
+        "Marke": "BMW",
+        "Preis": 32000,
+        "Typ": "Kompaktklasse"
+      },
+      {
+        "Modell": "3er",
+        "Marke": "BMW",
+        "Preis": 40000,
+        "Typ": "Mittelklasse"
+      },
+      {
+        "Modell": "4er",
+        "Marke": "BMW",
+        "Preis": 45000,
+        "Typ": "Mittelklasse-Coupé"
+      },
+      {
+        "Modell": "5er",
+        "Marke": "BMW",
+        "Preis": 55000,
+        "Typ": "Obere Mittelklasse"
+      },
+      {
+        "Modell": "6er",
+        "Marke": "BMW",
+        "Preis": 70000,
+        "Typ": "Oberklasse"
+      },
+      {
+        "Modell": "7er",
+        "Marke": "BMW",
+        "Preis": 90000,
+        "Typ": "Luxusklasse"
+      },
+      {
+        "Modell": "8er",
+        "Marke": "BMW",
+        "Preis": 100000,
+        "Typ": "Luxus-Coupé"
+      },
+      {
+        "Modell": "X1",
+        "Marke": "BMW",
+        "Preis": 37000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "X2",
+        "Marke": "BMW",
+        "Preis": 40000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "X3",
+        "Marke": "BMW",
+        "Preis": 47000,
+        "Typ": "Mittelklasse-SUV"
+      },
+      {
+        "Modell": "X4",
+        "Marke": "BMW",
+        "Preis": 52000,
+        "Typ": "Mittelklasse-SUV"
+      },
+      {
+        "Modell": "X5",
+        "Marke": "BMW",
+        "Preis": 60000,
+        "Typ": "Oberklasse-SUV"
+      },
+      {
+        "Modell": "X6",
+        "Marke": "BMW",
+        "Preis": 70000,
+        "Typ": "Oberklasse-SUV"
+      },
+      {
+        "Modell": "X7",
+        "Marke": "BMW",
+        "Preis": 90000,
+        "Typ": "Luxus-SUV"
+      },
+      {
+        "Modell": "i3",
+        "Marke": "BMW",
+        "Preis": 40000,
+        "Typ": "Elektro-Kompaktklasse"
+      },
+      {
+        "Modell": "i4",
+        "Marke": "BMW",
+        "Preis": 60000,
+        "Typ": "Elektro-Mittelklasse"
+      },
+      {
+        "Modell": "iX",
+        "Marke": "BMW",
+        "Preis": 80000,
+        "Typ": "Elektro-SUV"
+      },
+      {
+        "Modell": "i7",
+        "Marke": "BMW",
+        "Preis": 120000,
+        "Typ": "Elektro-Luxusklasse"
+      },
+      {
+        "Modell": "Z4",
+        "Marke": "BMW",
+        "Preis": 50000,
+        "Typ": "Roadster"
+      },
+      {
+        "Modell": "M2",
+        "Marke": "BMW",
+        "Preis": 65000,
+        "Typ": "Sportwagen"
+      },
+      {
+        "Modell": "M3",
+        "Marke": "BMW",
+        "Preis": 80000,
+        "Typ": "Sportwagen"
+      },
+      {
+        "Modell": "M4",
+        "Marke": "BMW",
+        "Preis": 85000,
+        "Typ": "Sportwagen"
+      },
+      {
+        "Modell": "M5",
+        "Marke": "BMW",
+        "Preis": 110000,
+        "Typ": "Sportwagen"
+      },
+      {
+        "Modell": "M8",
+        "Marke": "BMW",
+        "Preis": 150000,
+        "Typ": "Luxus-Sportwagen"
+      },
+      {
+        "Modell": "X3 M",
+        "Marke": "BMW",
+        "Preis": 80000,
+        "Typ": "Sport-SUV"
+      },
+      {
+        "Modell": "X4 M",
+        "Marke": "BMW",
+        "Preis": 85000,
+        "Typ": "Sport-SUV"
+      },
+      {
+        "Modell": "X5 M",
+        "Marke": "BMW",
+        "Preis": 110000,
+        "Typ": "Sport-SUV"
+      },
+      {
+        "Modell": "X6 M",
+        "Marke": "BMW",
+        "Preis": 120000,
+        "Typ": "Sport-SUV"
+      },
+      {
+        "Modell": "X7 M50i",
+        "Marke": "BMW",
+        "Preis": 130000,
+        "Typ": "Luxus-SUV"
+      },
+
+
+
+      {
+        "Modell": "Chiron",
+        "Marke": "Bugatti",
+        "Preis": 3000000,
+        "Typ": "Hypercar"
+      },
+      {
+        "Modell": "Chiron Sport",
+        "Marke": "Bugatti",
+        "Preis": 3200000,
+        "Typ": "Hypercar"
+      },
+      {
+        "Modell": "Chiron Pur Sport",
+        "Marke": "Bugatti",
+        "Preis": 3400000,
+        "Typ": "Hypercar"
+      },
+      {
+        "Modell": "Divo",
+        "Marke": "Bugatti",
+        "Preis": 5000000,
+        "Typ": "Hypercar"
+      },
+      {
+        "Modell": "Centodieci",
+        "Marke": "Bugatti",
+        "Preis": 9000000,
+        "Typ": "Hypercar"
+      },
+      {
+        "Modell": "La Voiture Noire",
+        "Marke": "Bugatti",
+        "Preis": 18000000,
+        "Typ": "Hypercar"
+      },
+      {
+        "Modell": "Bolide",
+        "Marke": "Bugatti",
+        "Preis": 4000000,
+        "Typ": "Track Hypercar"
+      },
+      {
+        "Modell": "Veyron",
+        "Marke": "Bugatti",
+        "Preis": 1500000,
+        "Typ": "Hypercar"
+      },
+      {
+        "Modell": "Veyron Super Sport",
+        "Marke": "Bugatti",
+        "Preis": 2200000,
+        "Typ": "Hypercar"
+      },
+      {
+        "Modell": "EB110",
+        "Marke": "Bugatti",
+        "Preis": 800000,
+        "Typ": "Supercar"
+      },
+
+
+
+      {
+        "Modell": "CT4",
+        "Marke": "Cadillac",
+        "Preis": 34000,
+        "Typ": "Kompakt-Limousine"
+      },
+      {
+        "Modell": "CT4-V",
+        "Marke": "Cadillac",
+        "Preis": 46000,
+        "Typ": "Sport-Kompakt-Limousine"
+      },
+      {
+        "Modell": "CT5",
+        "Marke": "Cadillac",
+        "Preis": 37000,
+        "Typ": "Mittelklasse-Limousine"
+      },
+      {
+        "Modell": "CT5-V",
+        "Marke": "Cadillac",
+        "Preis": 51000,
+        "Typ": "Sport-Mittelklasse-Limousine"
+      },
+      {
+        "Modell": "CT6",
+        "Marke": "Cadillac",
+        "Preis": 58000,
+        "Typ": "Oberklasse-Limousine"
+      },
+      {
+        "Modell": "XT4",
+        "Marke": "Cadillac",
+        "Preis": 36000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "XT5",
+        "Marke": "Cadillac",
+        "Preis": 45000,
+        "Typ": "Mittelklasse-SUV"
+      },
+      {
+        "Modell": "XT6",
+        "Marke": "Cadillac",
+        "Preis": 55000,
+        "Typ": "Oberklasse-SUV"
+      },
+      {
+        "Modell": "Escalade",
+        "Marke": "Cadillac",
+        "Preis": 78000,
+        "Typ": "Luxus-SUV"
+      },
+      {
+        "Modell": "Escalade ESV",
+        "Marke": "Cadillac",
+        "Preis": 85000,
+        "Typ": "Luxus-SUV"
+      },
+      {
+        "Modell": "Lyriq",
+        "Marke": "Cadillac",
+        "Preis": 60000,
+        "Typ": "Elektro-SUV"
+      },
+
+
+      {
+        "Modell": "Spark",
+        "Marke": "Chevrolet",
+        "Preis": 14000,
+        "Typ": "Kleinwagen"
+      },
+      {
+        "Modell": "Sonic",
+        "Marke": "Chevrolet",
+        "Preis": 17000,
+        "Typ": "Kompaktwagen"
+      },
+      {
+        "Modell": "Malibu",
+        "Marke": "Chevrolet",
+        "Preis": 24000,
+        "Typ": "Mittelklasse-Limousine"
+      },
+      {
+        "Modell": "Impala",
+        "Marke": "Chevrolet",
+        "Preis": 31000,
+        "Typ": "Oberklasse-Limousine"
+      },
+      {
+        "Modell": "Camaro",
+        "Marke": "Chevrolet",
+        "Preis": 25000,
+        "Typ": "Sportwagen"
+      },
+      {
+        "Modell": "Corvette",
+        "Marke": "Chevrolet",
+        "Preis": 60000,
+        "Typ": "Sportwagen"
+      },
+      {
+        "Modell": "Trax",
+        "Marke": "Chevrolet",
+        "Preis": 22000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "Equinox",
+        "Marke": "Chevrolet",
+        "Preis": 28000,
+        "Typ": "Mittelklasse-SUV"
+      },
+      {
+        "Modell": "Blazer",
+        "Marke": "Chevrolet",
+        "Preis": 33000,
+        "Typ": "Mittelklasse-SUV"
+      },
+      {
+        "Modell": "Traverse",
+        "Marke": "Chevrolet",
+        "Preis": 34000,
+        "Typ": "Oberklasse-SUV"
+      },
+      {
+        "Modell": "Tahoe",
+        "Marke": "Chevrolet",
+        "Preis": 49000,
+        "Typ": "Full-Size-SUV"
+      },
+      {
+        "Modell": "Suburban",
+        "Marke": "Chevrolet",
+        "Preis": 52000,
+        "Typ": "Full-Size-SUV"
+      },
+      {
+        "Modell": "Colorado",
+        "Marke": "Chevrolet",
+        "Preis": 27000,
+        "Typ": "Mid-Size-Pickup"
+      },
+      {
+        "Modell": "Silverado 1500",
+        "Marke": "Chevrolet",
+        "Preis": 29000,
+        "Typ": "Full-Size-Pickup"
+      },
+      {
+        "Modell": "Silverado 2500HD",
+        "Marke": "Chevrolet",
+        "Preis": 36000,
+        "Typ": "Heavy-Duty-Pickup"
+      },
+      {
+        "Modell": "Bolt EV",
+        "Marke": "Chevrolet",
+        "Preis": 31000,
+        "Typ": "Elektro-Kompaktwagen"
+      },
+      {
+        "Modell": "Bolt EUV",
+        "Marke": "Chevrolet",
+        "Preis": 34000,
+        "Typ": "Elektro-SUV"
+      },
+
+
+
+      {
+        "Modell": "C1",
+        "Marke": "Citroën",
+        "Preis": 15000,
+        "Typ": "Kleinwagen"
+      },
+      {
+        "Modell": "C3",
+        "Marke": "Citroën",
+        "Preis": 20000,
+        "Typ": "Kleinwagen"
+      },
+      {
+        "Modell": "C3 Aircross",
+        "Marke": "Citroën",
+        "Preis": 24000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "C4",
+        "Marke": "Citroën",
+        "Preis": 25000,
+        "Typ": "Kompaktklasse"
+      },
+      {
+        "Modell": "C4 Cactus",
+        "Marke": "Citroën",
+        "Preis": 23000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "C5 Aircross",
+        "Marke": "Citroën",
+        "Preis": 30000,
+        "Typ": "Mittelklasse-SUV"
+      },
+      {
+        "Modell": "Berlingo",
+        "Marke": "Citroën",
+        "Preis": 28000,
+        "Typ": "Kompakt-Van"
+      },
+      {
+        "Modell": "Spacetourer",
+        "Marke": "Citroën",
+        "Preis": 35000,
+        "Typ": "Van"
+      },
+      {
+        "Modell": "Grand C4 Spacetourer",
+        "Marke": "Citroën",
+        "Preis": 32000,
+        "Typ": "Van"
+      },
+      {
+        "Modell": "Ami",
+        "Marke": "Citroën",
+        "Preis": 7000,
+        "Typ": "Elektro-Kleinwagen"
+      },
+      {
+        "Modell": "ë-C4",
+        "Marke": "Citroën",
+        "Preis": 35000,
+        "Typ": "Elektro-Kompaktklasse"
+      },
+      {
+        "Modell": "ë-Spacetourer",
+        "Marke": "Citroën",
+        "Preis": 45000,
+        "Typ": "Elektro-Van"
+      }
+  ]
+  

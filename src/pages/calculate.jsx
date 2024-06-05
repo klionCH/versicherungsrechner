@@ -47,16 +47,16 @@ function Calculator() {
 
                     </TabList>
                     <TabPanel className="">
-                        <div className="mt-4 text-white h-56"><Page1></Page1></div>
+                        <div className="mt-10 text-white h-56"><Page1></Page1></div>
                     </TabPanel>
                     <TabPanel className="bg-indigo-400">
-                        <div className="mt-4 text-white h-40"><Page2></Page2></div>
+                        <div className="mt-10 text-white h-40"><Page2></Page2></div>
                     </TabPanel>
                     <TabPanel>
-                        <div className="mt-4 text-white">Content for Page 3</div>
+                        <div className="mt-10 text-white">Content for Page 3</div>
                     </TabPanel>
                     <TabPanel>
-                        <div className="mt-4 text-white">Content for Page 4</div>
+                        <div className="mt-10 text-white">Content for Page 4</div>
                     </TabPanel>
                 </Tabs>
 
