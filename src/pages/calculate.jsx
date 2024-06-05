@@ -14,7 +14,7 @@ function Calculator() {
     };
 
     const handleNext = () => {
-        if (tabIndex < 3) { // Adjusted to allow switching to the third tab when index is less than 2
+        if (tabIndex < 3) 
             setTabIndex(tabIndex + 1);
         }
     };
