@@ -1,6 +1,8 @@
 import "./style/style.css";
 import Page1 from "./calculator/calculator-page1";
 import Page2 from "./calculator/calculator-page2";
+import Page3 from "./calculator/calculator-page3";
+import Page4 from "./calculator/calculator-page4";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { useState } from 'react';
 
@@ -53,10 +55,10 @@ function Calculator() {
                         <div className="mt-10 text-white h-40"><Page2></Page2></div>
                     </TabPanel>
                     <TabPanel>
-                        <div className="mt-10 text-white">Content for Page 3</div>
+                        <div className="mt-10 text-white"><Page3></Page3></div>
                     </TabPanel>
                     <TabPanel>
-                        <div className="mt-10 text-white">Content for Page 4</div>
+                        <div className="mt-10 text-white"><Page4></Page4></div>
                     </TabPanel>
                 </Tabs>
 

@@ -845,6 +845,564 @@
         "Marke": "Citroën",
         "Preis": 45000,
         "Typ": "Elektro-Van"
+      },
+
+
+      {
+        "Modell": "Portofino",
+        "Marke": "Ferrari",
+        "Preis": 215000,
+        "Typ": "Cabriolet"
+      },
+      {
+        "Modell": "Roma",
+        "Marke": "Ferrari",
+        "Preis": 250000,
+        "Typ": "Coupé"
+      },
+      {
+        "Modell": "F8 Tributo",
+        "Marke": "Ferrari",
+        "Preis": 280000,
+        "Typ": "Supersportwagen"
+      },
+      {
+        "Modell": "812 Superfast",
+        "Marke": "Ferrari",
+        "Preis": 350000,
+        "Typ": "Grand Tourer"
+      },
+      {
+        "Modell": "SF90 Stradale",
+        "Marke": "Ferrari",
+        "Preis": 625000,
+        "Typ": "Hybrid-Supersportwagen"
+      },
+      {
+        "Modell": "Ferrari Monza SP1",
+        "Marke": "Ferrari",
+        "Preis": 1750000,
+        "Typ": "Speedster"
+      },
+      {
+        "Modell": "Ferrari Monza SP2",
+        "Marke": "Ferrari",
+        "Preis": 1750000,
+        "Typ": "Speedster"
+      },
+      {
+        "Modell": "Ferrari SF90 Spider",
+        "Marke": "Ferrari",
+        "Preis": 700000,
+        "Typ": "Hybrid-Supersportwagen"
+      },
+      {
+        "Modell": "Ferrari 488 Pista",
+        "Marke": "Ferrari",
+        "Preis": 350000,
+        "Typ": "Track-fokussierter Supersportwagen"
+      },
+      {
+        "Modell": "Ferrari 488 GTB",
+        "Marke": "Ferrari",
+        "Preis": 300000,
+        "Typ": "Supersportwagen"
+      },
+
+      {
+        "Modell": "500",
+        "Marke": "Fiat",
+        "Preis": 16000,
+        "Typ": "Kleinwagen"
+      },
+      {
+        "Modell": "500X",
+        "Marke": "Fiat",
+        "Preis": 22000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "500L",
+        "Marke": "Fiat",
+        "Preis": 22000,
+        "Typ": "Kompakt-Van"
+      },
+      {
+        "Modell": "Tipo",
+        "Marke": "Fiat",
+        "Preis": 19000,
+        "Typ": "Kompaktklasse"
+      },
+      {
+        "Modell": "Panda",
+        "Marke": "Fiat",
+        "Preis": 18000,
+        "Typ": "Kleinwagen"
+      },
+      {
+        "Modell": "Punto",
+        "Marke": "Fiat",
+        "Preis": 20000,
+        "Typ": "Kompaktklasse"
+      },
+      {
+        "Modell": "Qubo",
+        "Marke": "Fiat",
+        "Preis": 23000,
+        "Typ": "Kompakt-Van"
+      },
+      {
+        "Modell": "124 Spider",
+        "Marke": "Fiat",
+        "Preis": 30000,
+        "Typ": "Roadster"
+      },
+      {
+        "Modell": "Doblò",
+        "Marke": "Fiat",
+        "Preis": 25000,
+        "Typ": "Kompakt-Van"
+      },
+      {
+        "Modell": "500e",
+        "Marke": "Fiat",
+        "Preis": 33000,
+        "Typ": "Elektro-Kleinwagen"
+      },
+
+
+      {
+        "Modell": "Fiesta",
+        "Marke": "Ford",
+        "Preis": 18000,
+        "Typ": "Kleinwagen"
+      },
+      {
+        "Modell": "Focus",
+        "Marke": "Ford",
+        "Preis": 22000,
+        "Typ": "Kompaktklasse"
+      },
+      {
+        "Modell": "Mondeo",
+        "Marke": "Ford",
+        "Preis": 28000,
+        "Typ": "Mittelklasse-Limousine"
+      },
+      {
+        "Modell": "Mustang",
+        "Marke": "Ford",
+        "Preis": 40000,
+        "Typ": "Sportwagen"
+      },
+      {
+        "Modell": "EcoSport",
+        "Marke": "Ford",
+        "Preis": 24000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "Puma",
+        "Marke": "Ford",
+        "Preis": 26000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "Kuga",
+        "Marke": "Ford",
+        "Preis": 32000,
+        "Typ": "Mittelklasse-SUV"
+      },
+      {
+        "Modell": "Edge",
+        "Marke": "Ford",
+        "Preis": 38000,
+        "Typ": "Oberklasse-SUV"
+      },
+      {
+        "Modell": "Explorer",
+        "Marke": "Ford",
+        "Preis": 50000,
+        "Typ": "Full-Size-SUV"
+      },
+      {
+        "Modell": "Ranger",
+        "Marke": "Ford",
+        "Preis": 35000,
+        "Typ": "Pickup"
+      },
+      {
+        "Modell": "Transit Custom",
+        "Marke": "Ford",
+        "Preis": 33000,
+        "Typ": "Transporter"
+      },
+      {
+        "Modell": "Transit",
+        "Marke": "Ford",
+        "Preis": 38000,
+        "Typ": "Transporter"
+      },
+      {
+        "Modell": "Tourneo Custom",
+        "Marke": "Ford",
+        "Preis": 36000,
+        "Typ": "Transporter"
+      },
+      {
+        "Modell": "Tourneo Connect",
+        "Marke": "Ford",
+        "Preis": 28000,
+        "Typ": "Kompakt-Van"
+      },
+      {
+        "Modell": "Mustang Mach-E",
+        "Marke": "Ford",
+        "Preis": 55000,
+        "Typ": "Elektro-SUV"
+      },
+
+      {
+        "Modell": "Civic",
+        "Marke": "Honda",
+        "Preis": 22000,
+        "Typ": "Kompaktklasse"
+      },
+      {
+        "Modell": "Accord",
+        "Marke": "Honda",
+        "Preis": 25000,
+        "Typ": "Mittelklasse-Limousine"
+      },
+      {
+        "Modell": "Fit",
+        "Marke": "Honda",
+        "Preis": 18000,
+        "Typ": "Kleinwagen"
+      },
+      {
+        "Modell": "HR-V",
+        "Marke": "Honda",
+        "Preis": 24000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "CR-V",
+        "Marke": "Honda",
+        "Preis": 28000,
+        "Typ": "Mittelklasse-SUV"
+      },
+      {
+        "Modell": "Pilot",
+        "Marke": "Honda",
+        "Preis": 33000,
+        "Typ": "Oberklasse-SUV"
+      },
+      {
+        "Modell": "Odyssey",
+        "Marke": "Honda",
+        "Preis": 31000,
+        "Typ": "Minivan"
+      },
+      {
+        "Modell": "Ridgeline",
+        "Marke": "Honda",
+        "Preis": 34000,
+        "Typ": "Pickup"
+      },
+      {
+        "Modell": "Clarity",
+        "Marke": "Honda",
+        "Preis": 40000,
+        "Typ": "Elektroauto mit Brennstoffzelle"
+      },
+      {
+        "Modell": "Insight",
+        "Marke": "Honda",
+        "Preis": 29000,
+        "Typ": "Hybrid-Kompaktklasse"
+      },
+
+
+      {
+        "Modell": "i10",
+        "Marke": "Hyundai",
+        "Preis": 12000,
+        "Typ": "Kleinwagen"
+      },
+      {
+        "Modell": "i20",
+        "Marke": "Hyundai",
+        "Preis": 15000,
+        "Typ": "Kompaktklasse"
+      },
+      {
+        "Modell": "i30",
+        "Marke": "Hyundai",
+        "Preis": 18000,
+        "Typ": "Kompaktklasse"
+      },
+      {
+        "Modell": "i40",
+        "Marke": "Hyundai",
+        "Preis": 23000,
+        "Typ": "Mittelklasse-Limousine"
+      },
+      {
+        "Modell": "Kona",
+        "Marke": "Hyundai",
+        "Preis": 22000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "Tucson",
+        "Marke": "Hyundai",
+        "Preis": 25000,
+        "Typ": "Mittelklasse-SUV"
+      },
+      {
+        "Modell": "Santa Fe",
+        "Marke": "Hyundai",
+        "Preis": 33000,
+        "Typ": "Oberklasse-SUV"
+      },
+      {
+        "Modell": "Nexo",
+        "Marke": "Hyundai",
+        "Preis": 60000,
+        "Typ": "Wasserstoff-Elektroauto"
+      },
+      {
+        "Modell": "IONIQ Electric",
+        "Marke": "Hyundai",
+        "Preis": 38000,
+        "Typ": "Elektro-Kompaktklasse"
+      },
+      {
+        "Modell": "IONIQ Hybrid",
+        "Marke": "Hyundai",
+        "Preis": 30000,
+        "Typ": "Hybrid-Kompaktklasse"
+      },
+      {
+        "Modell": "IONIQ Plug-in Hybrid",
+        "Marke": "Hyundai",
+        "Preis": 33000,
+        "Typ": "Plug-in-Hybrid-Kompaktklasse"
+      },
+      {
+        "Modell": "Veloster",
+        "Marke": "Hyundai",
+        "Preis": 27000,
+        "Typ": "Kompaktklasse-Coupé"
+      },
+      {
+        "Modell": "Elantra",
+        "Marke": "Hyundai",
+        "Preis": 20000,
+        "Typ": "Kompaktklasse"
+      },
+      {
+        "Modell": "Palisade",
+        "Marke": "Hyundai",
+        "Preis": 35000,
+        "Typ": "Oberklasse-SUV"
+      },
+
+
+      {
+        "Modell": "XE",
+        "Marke": "Jaguar",
+        "Preis": 41000,
+        "Typ": "Kompaktklasse-Limousine"
+      },
+      {
+        "Modell": "XF",
+        "Marke": "Jaguar",
+        "Preis": 51000,
+        "Typ": "Mittelklasse-Limousine"
+      },
+      {
+        "Modell": "XJ",
+        "Marke": "Jaguar",
+        "Preis": 75000,
+        "Typ": "Oberklasse-Limousine"
+      },
+      {
+        "Modell": "F-TYPE",
+        "Marke": "Jaguar",
+        "Preis": 67000,
+        "Typ": "Sportwagen"
+      },
+      {
+        "Modell": "E-PACE",
+        "Marke": "Jaguar",
+        "Preis": 42000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "F-PACE",
+        "Marke": "Jaguar",
+        "Preis": 49000,
+        "Typ": "Mittelklasse-SUV"
+      },
+      {
+        "Modell": "I-PACE",
+        "Marke": "Jaguar",
+        "Preis": 71000,
+        "Typ": "Elektro-SUV"
+      },
+
+      {
+        "Modell": "Huracán",
+        "Marke": "Lamborghini",
+        "Preis": 250000,
+        "Typ": "Supersportwagen"
+      },
+      {
+        "Modell": "Aventador",
+        "Marke": "Lamborghini",
+        "Preis": 400000,
+        "Typ": "Supersportwagen"
+      },
+      {
+        "Modell": "Urus",
+        "Marke": "Lamborghini",
+        "Preis": 220000,
+        "Typ": "SUV"
+      },
+      {
+        "Modell": "Sian FKP 37",
+        "Marke": "Lamborghini",
+        "Preis": 3800000,
+        "Typ": "Supersportwagen"
+      },
+
+
+      {
+        "Modell": "Ghibli",
+        "Marke": "Maserati",
+        "Preis": 75000,
+        "Typ": "Limousine"
+      },
+      {
+        "Modell": "Quattroporte",
+        "Marke": "Maserati",
+        "Preis": 105000,
+        "Typ": "Limousine"
+      },
+      {
+        "Modell": "Levante",
+        "Marke": "Maserati",
+        "Preis": 80000,
+        "Typ": "SUV"
+      },
+      {
+        "Modell": "MC20",
+        "Marke": "Maserati",
+        "Preis": 200000,
+        "Typ": "Supersportwagen"
+      },
+
+      {
+        "Modell": "Mazda2",
+        "Marke": "Mazda",
+        "Preis": 16000,
+        "Typ": "Kleinwagen"
+      },
+      {
+        "Modell": "Mazda3",
+        "Marke": "Mazda",
+        "Preis": 21000,
+        "Typ": "Kompaktklasse"
+      },
+      {
+        "Modell": "Mazda6",
+        "Marke": "Mazda",
+        "Preis": 25000,
+        "Typ": "Mittelklasse-Limousine"
+      },
+      {
+        "Modell": "MX-5",
+        "Marke": "Mazda",
+        "Preis": 28000,
+        "Typ": "Roadster"
+      },
+      {
+        "Modell": "CX-3",
+        "Marke": "Mazda",
+        "Preis": 23000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "CX-30",
+        "Marke": "Mazda",
+        "Preis": 26000,
+        "Typ": "Kompakt-SUV"
+      },
+      {
+        "Modell": "CX-5",
+        "Marke": "Mazda",
+        "Preis": 28000,
+        "Typ": "Mittelklasse-SUV"
+      },
+      {
+        "Modell": "CX-9",
+        "Marke": "Mazda",
+        "Preis": 34000,
+        "Typ": "Oberklasse-SUV"
+      },
+      {
+        "Modell": "MX-30",
+        "Marke": "Mazda",
+        "Preis": 33000,
+        "Typ": "Elektro-Kompakt-SUV"
+      },
+
+
+      {
+        "Modell": "570S",
+        "Marke": "McLaren",
+        "Preis": 200000,
+        "Typ": "Supersportwagen"
+      },
+      {
+        "Modell": "600LT",
+        "Marke": "McLaren",
+        "Preis": 240000,
+        "Typ": "Supersportwagen"
+      },
+      {
+        "Modell": "720S",
+        "Marke": "McLaren",
+        "Preis": 300000,
+        "Typ": "Supersportwagen"
+      },
+      {
+        "Modell": "GT",
+        "Marke": "McLaren",
+        "Preis": 210000,
+        "Typ": "Grand Tourer"
+      },
+      {
+        "Modell": "Artura",
+        "Marke": "McLaren",
+        "Preis": 250000,
+        "Typ": "Hybrid-Supersportwagen"
+      },
+      {
+        "Modell": "Speedtail",
+        "Marke": "McLaren",
+        "Preis": 2000000,
+        "Typ": "Hypercar"
       }
+
+
+
+
+
+
+
+
   ]
   

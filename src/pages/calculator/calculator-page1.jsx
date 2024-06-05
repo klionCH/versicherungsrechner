@@ -6,8 +6,23 @@ function Page1() {
   const [carData, setCarData] = useState([]);
   const [selectedBrand, setSelectedBrand] = useState('');
   const [uniqueModels, setUniqueModels] = useState([]);
+  const [Model, setModel] = useState('');
+  const [Brand, setBrand] = useState('');
 
+  // Load saved values from localStorage on component mount
   useEffect(() => {
+    const savedBrand = localStorage.getItem('selectedBrand');
+    const savedModel = localStorage.getItem('selectedModel');
+
+    if (savedBrand) {
+      setSelectedBrand(savedBrand);
+      setBrand(savedBrand);
+    }
+
+    if (savedModel) {
+      setModel(savedModel);
+    }
+
     setCarData(data);
   }, []);
 
@@ -23,16 +38,25 @@ function Page1() {
   const uniqueBrands = [...new Set(carData.map(car => car.Marke))];
 
   const handleBrandChange = (e) => {
-    setSelectedBrand(e.target.value);
+    const brand = e.target.value;
+    setSelectedBrand(brand);
+    setBrand(brand);
+    localStorage.setItem('selectedBrand', brand); // Save selected brand to localStorage
+  };
+
+  const handleModelChange = (e) => {
+    const model = e.target.value;
+    setModel(model);
+    localStorage.setItem('selectedModel', model); // Save selected model to localStorage
   };
 
   return (
     <>
-      <form>
         <div className="relative z-0 w-full mb-5 group">
           <select
             name="car-brand"
             id="car-brand"
+            value={selectedBrand} // Set value attribute to maintain selected value
             className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 focus:bg-gray-800 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
             placeholder=" "
             required
@@ -55,8 +79,10 @@ function Page1() {
           <select
             name="model"
             id="model"
+            value={Model} // Set value attribute to maintain selected value
             className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 focus:bg-gray-800 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
             placeholder=" "
+            onChange={handleModelChange}
             required
           >
             <option value="">Select Model</option>
@@ -72,7 +98,6 @@ function Page1() {
           </label>
         </div>
       
-      </form>
     </>
   );
 }
