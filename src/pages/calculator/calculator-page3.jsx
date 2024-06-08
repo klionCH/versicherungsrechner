@@ -1,13 +1,27 @@
 import React, { useState, useEffect } from 'react';
-import "../style/style.css"
+import "../style/style.css";
 
 function Page3() {
-  const [hasGarage, setHasGarage] = useState(localStorage.getItem('selectedGarage') === 'true' ? true : false);
+  const [hasGarage, setHasGarage] = useState(() => {
+    const storedGarage = localStorage.getItem('selectedGarage');
+    return storedGarage !== null ? storedGarage === 'true' : null;
+  });
   const [reach, setReach] = useState(localStorage.getItem('reach') || '');
 
+  useEffect(() => {
+    const storedGarage = localStorage.getItem('selectedGarage');
+    const storedReach = localStorage.getItem('reach');
+    
+    if (storedGarage !== null) {
+      setHasGarage(storedGarage === 'true');
+    }
+    if (storedReach !== null) {
+      setReach(storedReach);
+    }
+  }, []);
 
   const handleGarageChange = (e) => {
-    const value = e.target.value === 'true' ? true : false;
+    const value = e.target.value === 'true';
     setHasGarage(value);
     localStorage.setItem('selectedGarage', value);
   };
@@ -46,7 +60,7 @@ function Page3() {
           <label htmlFor="garage-no" className="text-gray-900 dark:text-gray-400">Nein</label>
         </div>
         <label
-          htmlFor="license-year"
+          htmlFor="garage-yes"
           className="peer-focus:font-medium absolute text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-8 scale-75 top-2 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8"
         >
           Hat das Auto einen Garagen parkplatz?
@@ -58,23 +72,15 @@ function Page3() {
           name="car-use"
           id="car-use"
           className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 focus:bg-gray-800 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
-          placeholder=" "
+          value={reach}
           required
           onChange={handleReachChange}
         >
-          <option>
-            weniger als 5.000 km
-          </option> 
-          <option>
-            5.000 - 20.000 km
-          </option>
-          <option>
-            20.000 km - 50.000 km
-          </option>
-          <option>
-            mehr als 50.000 km
-          </option>
-
+          <option value="" disabled>Select</option>
+          <option value="5000">weniger als 5.000 km</option> 
+          <option value="20000">5.000 - 20.000 km</option>
+          <option value="50000">20.000 km - 50.000 km</option>
+          <option value="60000">mehr als 50.000 km</option>
         </select>
         <label
           htmlFor="car-use"
