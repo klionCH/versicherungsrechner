@@ -51,7 +51,7 @@ function Calculator() {
                     <TabPanel className="">
                         <div className="mt-10 text-white h-56"><Page1></Page1></div>
                     </TabPanel>
-                    <TabPanel className="bg-indigo-400">
+                    <TabPanel className="">
                         <div className="mt-10 text-white h-40"><Page2></Page2></div>
                     </TabPanel>
                     <TabPanel>

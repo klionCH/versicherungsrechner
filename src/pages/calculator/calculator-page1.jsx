@@ -9,7 +9,7 @@ function Page1() {
   const [brand, setBrand] = useState('');
   const [price, setPrice] = useState('');
 
-  // Load saved values from localStorage on component mount
+  
   useEffect(() => {
     const savedBrand = localStorage.getItem('selectedBrand');
     const savedModel = localStorage.getItem('selectedModel');
@@ -43,23 +43,23 @@ function Page1() {
     const brand = e.target.value;
     setSelectedBrand(brand);
     setBrand(brand);
-    localStorage.setItem('selectedBrand', brand); // Save selected brand to localStorage
-    setModel(''); // Clear model selection
-    setPrice(''); // Clear price
-    localStorage.removeItem('selectedModel'); // Remove model from localStorage
-    localStorage.removeItem('selectedPrice'); // Remove price from localStorage
+    localStorage.setItem('selectedBrand', brand);
+    setModel(''); 
+    setPrice(''); 
+    localStorage.removeItem('selectedModel'); 
+    localStorage.removeItem('selectedPrice'); 
   };
 
   const handleModelChange = (e) => {
     const model = e.target.value;
     setModel(model);
-    localStorage.setItem('selectedModel', model); // Save selected model to localStorage
+    localStorage.setItem('selectedModel', model); 
     
-    // Update the price for the selected model
+    
     const car = data.find(car => car.Modell === model);
     const carPrice = car ? car.Preis : '';
     setPrice(carPrice);
-    localStorage.setItem('selectedPrice', carPrice); // Save selected price to localStorage
+    localStorage.setItem('selectedPrice', carPrice); 
   };
 
   return (
@@ -68,7 +68,7 @@ function Page1() {
         <select
           name="car-brand"
           id="car-brand"
-          value={selectedBrand} // Set value attribute to maintain selected value
+          value={selectedBrand}
           className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 focus:bg-gray-800 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
           placeholder=" "
           required
@@ -91,7 +91,7 @@ function Page1() {
         <select
           name="model"
           id="model"
-          value={model} // Set value attribute to maintain selected value
+          value={model} 
           className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 focus:bg-gray-800 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
           placeholder=" "
           onChange={handleModelChange}
