@@ -1,7 +1,6 @@
 import './App.css';
 import Calculator from './pages/calculate';
-import Page1 from './pages/calculator/calculator-page1';
-import Page2 from './pages/calculator/calculator-page2';
+import Compaire from './pages/compaire';
 import Home from './pages/home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -12,6 +11,7 @@ function App() {
         <Routes>
             <Route exact path="/" element={<Home/>} />
             <Route path="/calculate" element={<Calculator />} />
+            <Route path="/compaire" element={<Compaire />} />
         </Routes>
       </BrowserRouter>
     </>

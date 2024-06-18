@@ -1,17 +1,28 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 function Page4() {
   const [selectedBrand, setSelectedBrand] = useState('');
+  const [selectedModel, setSelectedModel] = useState('');
   const [selectedPrice, setSelectedPrice] = useState('');
   const [selectedYear, setSelectedYear] = useState('');
   const [selectedGarage, setSelectedGarage] = useState('');
   const [selectedAge, setSelectedAge] = useState('');
   const [selectedGender, setSelectedGender] = useState('');
   const [selectedReach, setSelectedReach] = useState('');
-  const [calculatedPrice, setCalculatedPrice] = useState(null);
+  const [calculatedPrice, setCalculatedPrice] = useState('');
   const [calculations, setCalculations] = useState([]);
+  const [history, setHistory] = useState([]);
 
-  const basePrice = 1000; // Define a base price
+  const age = localStorage.getItem('birthDate');
+  const year = localStorage.getItem('licenseYear');
+  const garage = localStorage.getItem('selectedGarage');
+  const reach = localStorage.getItem('reach');
+  const price = localStorage.getItem('selectedPrice');
+  const brand = localStorage.getItem('selectedBrand');
+  const model = localStorage.getItem('selectedModel');
+
+  const basePrice = 1000;
 
   const handleResetLocalStorage = () => {
     localStorage.clear();
@@ -22,7 +33,7 @@ function Page4() {
     setSelectedAge('');
     setSelectedGender('');
     setSelectedReach('');
-    setCalculatedPrice(null);
+    setSelectedModel('');
   };
 
   const getAllLocalStorageItems = () => {
@@ -43,24 +54,22 @@ function Page4() {
     setSelectedAge(localStorage.getItem('birthDate') || '');
     setSelectedGender(localStorage.getItem('gender') || '');
     setSelectedReach(localStorage.getItem('reach') || '');
+    setSelectedModel(localStorage.getItem('selectedModel') || '');
     getAllLocalStorageItems();
   };
 
   useEffect(() => {
     handleClick();
+    const storedHistory = JSON.parse(localStorage.getItem('history')) || [];
+    setHistory(storedHistory);
   }, []);
 
   const getValues = () => {
-    const age = localStorage.getItem('birthDate');
-    const year = localStorage.getItem('licenseYear');
-    const garage = localStorage.getItem('selectedGarage');
-    const reach = localStorage.getItem('reach');
-    const price = localStorage.getItem('selectedPrice');
-    const brand = localStorage.getItem('selectedBrand');
-    const model = localStorage.getItem('selectedModel');
+
 
     if (age && year && garage && reach && price && brand && model) {
       console.log('All values are available');
+
       return true;
     } else {
       return false;
@@ -70,53 +79,47 @@ function Page4() {
   const calculate = () => {
     const valuesAvailable = getValues();
     if (valuesAvailable) {
-      let insurancePrice = basePrice;
-      const price = parseFloat(selectedPrice);
-
-      // Example conditions for price
-      if (price < 10000) {
+      let insurancePrice = basePrice; 
+      const parsedPrice = parseFloat(selectedPrice); 
+  
+      if (parsedPrice < 10000) {
         insurancePrice *= 1;
-      } else if (price >= 10000 && price < 70000) {
+      } else if (parsedPrice >= 10000 && parsedPrice < 70000) {
         insurancePrice *= 1.3;
-      } else if (price >= 70000) {
+      } else if (parsedPrice >= 70000) {
         insurancePrice *= 1.5;
       }
-
-      // Example conditions for brand
+  
       if (selectedBrand === 'Luxury') {
         insurancePrice *= 1.4;
       } else if (selectedBrand === 'Economy') {
         insurancePrice *= 1.1;
       }
-
-      // Example conditions for year
-      const year = parseInt(selectedYear, 10);
-      if (year < 2000) {
+  
+      const parsedYear = parseInt(selectedYear, 10);
+      if (parsedYear < 2000) {
         insurancePrice *= 1.2;
-      } else if (year >= 2000 && year < 2015) {
+      } else if (parsedYear >= 2000 && parsedYear < 2015) {
         insurancePrice *= 1.1;
-      } else if (year >= 2015) {
+      } else if (parsedYear >= 2015) {
         insurancePrice *= 1.3;
       }
-
-      // Example conditions for garage
+  
       if (selectedGarage === 'Yes') {
         insurancePrice *= 0.9;
       } else if (selectedGarage === 'No') {
         insurancePrice *= 1.2;
       }
-
-      // Example conditions for age
-      const age = parseInt(selectedAge, 10);
-      if (age < 25) {
+  
+      const parsedAge = parseInt(selectedAge, 10);
+      if (parsedAge < 25) {
         insurancePrice *= 1.5;
-      } else if (age >= 25 && age < 50) {
+      } else if (parsedAge >= 25 && parsedAge < 50) {
         insurancePrice *= 1.1;
-      } else if (age >= 50) {
+      } else if (parsedAge >= 50) {
         insurancePrice *= 1.3;
       }
-
-      // Example conditions for reach
+  
       if (selectedReach === 'High') {
         insurancePrice *= 1.4;
       } else if (selectedReach === 'Medium') {
@@ -124,49 +127,72 @@ function Page4() {
       } else if (selectedReach === 'Low') {
         insurancePrice *= 1;
       }
-
+  
       if (selectedGender === 'Female') {
         insurancePrice *= 1.2;
       } else if (selectedGender === 'Male') {
         insurancePrice *= 0.8;
       }
-
-      
+  
       setCalculatedPrice(insurancePrice);
-      setCalculations([
-        ...calculations,
-        {
-          car: selectedBrand,
-          model: selectedModel,
-          price: selectedPrice,
-          year: selectedYear,
-          garage: selectedGarage,
-          age: selectedAge
-        }
-      ]);
-            localStorage.setItem('insurancePrice', calculatedPrice); 
-      console.log(calculations )
+  
+      const newCalculation = {
+        selectedBrand,
+        selectedModel,
+        selectedPrice,
+        selectedYear,
+        selectedGarage,
+        selectedAge,
+        selectedGender,
+        selectedReach,
+        calculatedPrice: insurancePrice
+      };
+      setCalculations([...calculations, newCalculation]);
+  
+      const newHistory = [...history, newCalculation];
+      localStorage.setItem('history', JSON.stringify(newHistory));
+      setHistory(newHistory);
+  
       console.log(`Calculated price: ${insurancePrice}`);
     } else {
       alert("Cannot calculate price, some values are missing");
     }
-
-
   };
+  
+  
 
   return (
-    <>
-      <div className='bg-light rounded-lg flex justify-center'>
+    <div className='flex flex-col'>
+      <div className='bg-light rounded-lg '>
         <div>
-          {calculatedPrice !== null && <p>Calculated Insurance Price: ${calculatedPrice.toFixed(2)}</p>}
+          {calculatedPrice !== '' && (
+            <p>{`The Insurance will cost: ${calculatedPrice.toFixed(2)}`}</p>
+          )}
         </div>
       </div>
       <div>
-        <button onClick={calculate}>Calculate Insurance</button>
-        <br />
-        <button onClick={handleResetLocalStorage}>Reset Local Storage</button>
+        <button onClick={calculate} className="mt-5 relative inline-block p-px font-semibold leading-6 text-white no-underline bg-gray-800 shadow-2xl cursor-pointer group rounded-xl shadow-zinc-900">
+          <span className="absolute inset-0 overflow-hidden rounded-xl">
+            <span className="absolute inset-0 rounded-xl bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
+          </span>
+          <div className="relative z-10 flex items-center px-6 py-3 space-x-2 rounded-xl bg-gray-950/50 ring-1 ring-black/10">
+            <span>Calculate Insurance</span>
+          </div>
+          <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-gray-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40"></span>
+        </button>
+
+        <br/>
+        <Link to="/" className="mt-20 relative inline-block p-px font-semibold leading-6 text-white no-underline bg-gray-800 shadow-2xl cursor-pointer group rounded-xl shadow-zinc-900">
+          <span className="absolute inset-0 overflow-hidden rounded-xl">
+            <span className="absolute inset-0 rounded-xl bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
+          </span>
+          <div className="relative z-10 flex items-center px-6 py-3 space-x-2 rounded-xl bg-gray-950/50 ring-1 ring-black/10">
+            <span>Home</span>    
+          </div>
+          <span className="absolute -bottom-0 left-[1.125rem] h-px w-[calc(100%-2.25rem)] bg-gradient-to-r from-emerald-400/0 via-gray-400/90 to-emerald-400/0 transition-opacity duration-500 group-hover:opacity-40"></span>
+        </Link>
       </div>
-    </>
+    </div>
   );
 }
 
