@@ -40,6 +40,8 @@ Dieses Projekt ist eine mit React erstellte Webanwendung, die als Versicherungsr
 ![cal1](https://github.com/klionCH/versicherungsrechner/blob/master/wireframe/vergleichen.png)
 
 ## Deployen
+- Mit vercel.com habe ich die Seite online gestellt.
+- https://versicherungsrechner-murex.vercel.app/calculate
 
 ## Funktionen
 - Berechnung von Versicherungsprämien basierend auf Benutzereingaben
