@@ -15,6 +15,8 @@ Dieses Projekt ist eine mit React erstellte Webanwendung, die als Versicherungsr
 - Die History soll im Localstorrage gespeichert sein
 - Ein Reset Button, wo die History gelöscht wird.
 
+## Wireframe:
+
 
 
 ## Funktionen
