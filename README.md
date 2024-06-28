@@ -16,6 +16,16 @@ Dieses Projekt ist eine mit React erstellte Webanwendung, die als Versicherungsr
 - Ein Reset Button, wo die History gelöscht wird.
 
 ## Wireframe:
+### Landing Page
+![landing](https://github.com/klionCH/versicherungsrechner/blob/master/wireframe/landing.png)
+### Berechnungstabs:
+![cal1](https://github.com/klionCH/versicherungsrechner/blob/master/wireframe/versichern1.png)
+![cal2](https://github.com/klionCH/versicherungsrechner/blob/master/wireframe/versichern2.png)
+![cal3](https://github.com/klionCH/versicherungsrechner/blob/master/wireframe/versichern3.png)
+![cal4](https://github.com/klionCH/versicherungsrechner/blob/master/wireframe/versichern4.png)
+
+### Vergleichen:
+![cal1](https://github.com/klionCH/versicherungsrechner/blob/master/wireframe/vergleichen.png)
 
 
 
