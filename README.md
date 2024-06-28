@@ -1,9 +1,17 @@
 # Insurance Calculator
-
+_Sven Lübcke_
+_bbw_
+_28.06.2024_
 Dieses Projekt ist eine mit React erstellte Webanwendung, die als Versicherungsrechner dient. Es nutzt lokalen Speicher zum Speichern von Benutzerdaten und Tailwind CSS für das Styling.
 
+## Verwendete Technologien
+- react
+- Lokalstorage
+- Tailwind-CSS
+
+
 ## Umsetzung, Planung
-### Meine Ideen
+### Meine implementierten Ideen
 #### - Berrechnugnsseite:
 - Mehrere Tabs
 - Nach Themen sortierte Tabs
@@ -14,6 +22,10 @@ Dieses Projekt ist eine mit React erstellte Webanwendung, die als Versicherungsr
 - Eine History von Berrechnungen
 - Die History soll im Localstorrage gespeichert sein
 - Ein Reset Button, wo die History gelöscht wird.
+
+### Noch anstehend:
+- verlinkung zu anderen Versicherungswebseiten
+- kleine design änderungen
 
 ## Wireframe:
 ### Landing Page
@@ -27,10 +39,9 @@ Dieses Projekt ist eine mit React erstellte Webanwendung, die als Versicherungsr
 ### Vergleichen:
 ![cal1](https://github.com/klionCH/versicherungsrechner/blob/master/wireframe/vergleichen.png)
 
-
+## Deployen
 
 ## Funktionen
-
 - Berechnung von Versicherungsprämien basierend auf Benutzereingaben
 - Lokale Speicherung der Benutzerdaten mit lokalem Speicher
 - Vergleich der Berechnungshistorie
@@ -38,36 +49,5 @@ Dieses Projekt ist eine mit React erstellte Webanwendung, die als Versicherungsr
 
 ## Installation
 
-1. Klonen Sie das Repository:
-
-    ```
-    git clone https://github.com/klionCH/versicherungsrechner.git
-    ```
 
 
-2. Installieren Sie die Dependencies:
-
-    ```
-    npm installieren
-    ```
-
-4. Starten Sie den development server:
-
-    ```
-    npm starten
-    ```
-
-## Verwendung
-
-1. Öffnen Sie Ihren Webbrowser und navigieren Sie zu `http://localhost:3000`.
-2. Geben Sie die erforderlichen Informationen in das Formular des Versicherungsrechners ein.
-3. Klicken Sie auf die Schaltfläche "Berechnen", um die Versicherungsprämie zu ermitteln.
-4. Die berechnete Prämie wird auf dem Bildschirm angezeigt.
-
-## Verwendete Technologien
-
-- Reagieren
-- Lokale Speicherung
-- Tailwind-CSS
-
-Übersetzt mit DeepL.com (kostenlose Version)
