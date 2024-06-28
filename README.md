@@ -2,6 +2,23 @@
 
 Dieses Projekt ist eine mit React erstellte Webanwendung, die als Versicherungsrechner dient. Es nutzt lokalen Speicher zum Speichern von Benutzerdaten und Tailwind CSS für das Styling.
 
+## Umsetzung, Planung
+### Meine Ideen
+#### - Berrechnugnsseite:
+- Mehrere Tabs
+- Nach Themen sortierte Tabs
+- externes JSON file mit allen Autos (Marke / Modelle)
+- Localstorrage um die Eingaben zu speichern.
+
+#### - Vergleichseite:
+- Eine History von Berrechnungen
+- Die History soll im Localstorrage gespeichert sein
+- Ein Reset Button, wo die History gelöscht wird.
+
+## Wireframe:
+
+
+
 ## Funktionen
 
 - Berechnung von Versicherungsprämien basierend auf Benutzereingaben
