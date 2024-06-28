@@ -91,7 +91,7 @@ function Page4() {
       }
   
       if (selectedBrand === 'Luxury') {
-        insurancePrice *= 1.4;
+        insurancePrice *= 1.4;  
       } else if (selectedBrand === 'Economy') {
         insurancePrice *= 1.1;
       }
